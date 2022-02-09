@@ -8,7 +8,7 @@ import retrofit2.Response
 
 @ActivityRetainedScoped
 interface Repository {
-   suspend fun getNYTime(): Response<News>
+   suspend fun getNYTime(apikey : String): Response<News>
 
    suspend fun InsertData(newsEntity: NewsEntity)
 

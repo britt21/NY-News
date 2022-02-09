@@ -10,8 +10,8 @@ import javax.inject.Inject
 
 class RepositoryImpl @Inject constructor(private  val retrofitInterface: RetrofitInterface, private val newsdao: NewsDao):
     Repository {
-    override suspend fun getNYTime(): Response<News> {
-        return retrofitInterface.getNYTimes()
+    override suspend fun getNYTime(apikey : String): Response<News> {
+        return retrofitInterface.getNYTimes(apikey)
     }
 
     override suspend fun InsertData(newsEntity: NewsEntity) {
