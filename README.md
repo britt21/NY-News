@@ -27,6 +27,9 @@ Created Multiple SourceSet for an easy sepation of concern
 
 ![testere](https://user-images.githubusercontent.com/82580142/153214889-b48bda86-a916-4da5-b51d-f9c9208f5aa6.jpg)
 
+||** This App was Create Using My favorite Acritecture pattern MvvM...recomended by google  **||
+
+||** Hoping for the best **||
 
 
 
