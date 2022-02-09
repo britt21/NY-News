@@ -4,3 +4,4 @@ A News App, Created Using All Modern Architecture Pattern and Best Practices and
 
 Created Multiple SourceSet for an easy sepation of concern
 ![iteminfolder](https://user-images.githubusercontent.com/82580142/153200882-d75a454f-73e6-4240-b5ea-036c6df7b1f0.jpg)
+I Seprated those source set Into 4 diffrent Layers
