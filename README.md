@@ -11,5 +11,13 @@ Created Multiple SourceSet for an easy sepation of concern
 
 ||** For Easy Accessing of code calls i created all usecases and bind them to viewModel **||
 
+||** Dagger Hilt Was Also Impleneted for an easy Dependency Injection **||
+
+||** Repository And Repository Implimentation  was also Implemented to pass the data from Room and make NetworkCalls **||
+
+||** Also Wrote Large Test To Test The entire User Interface **||
+
+||** 
+
 
 
