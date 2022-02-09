@@ -9,3 +9,7 @@ Created Multiple SourceSet for an easy sepation of concern
 
 ||**  In the Presentation Layer we have the Main-Activity, HomeFragment, HomeViewModel, NewsDetail Fragment **||
 
+||** For Easy Accessing of code calls i created all usecases and bind them to viewModel **||
+
+
+
