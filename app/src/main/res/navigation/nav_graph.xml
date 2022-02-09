@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/NYHomeFragment">
+
+    <fragment
+        android:id="@+id/NYHomeFragment"
+        android:name="com.example.nytimes.presentation.NewsHomeFragment"
+        android:label="fragment_n_y_home"
+        tools:layout="@layout/fragment_news_home" >
+        <action
+            android:id="@+id/action_NYHomeFragment_to_NYDetailsFragment"
+            app:destination="@id/NYDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/NYDetailsFragment"
+        android:name="com.example.nytimes.presentation.NewsDetailsFragment"
+        android:label="fragment_n_y_details"
+        tools:layout="@layout/fragment_news_details" >
+        <action
+            android:id="@+id/action_NYDetailsFragment_to_NYHomeFragment"
+            app:destination="@id/NYHomeFragment" />
+        <argument
+            android:name="detailArgs"
+            app:argType="com.example.nytimes.data.remote.Result" />
+    </fragment>
+</navigation>
